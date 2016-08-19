@@ -1,7 +1,6 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Jenzri
+ * User: Jenzri Nizar
  * Date: 19/08/2016
  * Time: 14:21
  */
@@ -15,7 +14,7 @@ class headLink extends \Zend\View\Helper\HeadLink
     protected $baseUrl;
 
     /**
-     * @return mixed
+     * @return String
      */
     public function getBaseUrl()
     {
@@ -23,7 +22,7 @@ class headLink extends \Zend\View\Helper\HeadLink
     }
 
     /**
-     * @param mixed $baseUrl
+     * @param String $baseUrl
      */
     public function setBaseUrl($baseUrl)
     {

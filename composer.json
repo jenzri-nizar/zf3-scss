@@ -3,8 +3,8 @@
   "description": "Zend Framework SCSS Compiler",
   "keywords": ["css", "stylesheet", "scss", "sass", "less"],
   "license": [
-        "MIT"
-    ],
+    "MIT"
+  ],
   "authors": [
     {
       "name": "Jenzri Nizar",

@@ -2,7 +2,9 @@
   "name": "jenzri-nizar/zf3-scss",
   "description": "Zend Framework SCSS Compiler",
   "keywords": ["css", "stylesheet", "scss", "sass", "less"],
-
+  "license": [
+        "MIT"
+    ],
   "authors": [
     {
       "name": "Jenzri Nizar",

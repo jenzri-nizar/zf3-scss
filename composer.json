@@ -1,0 +1,16 @@
+{
+  "name": "jenzri-nizar/zf3-scss",
+  "description": "Zend Framework SCSS Compiler",
+  "keywords": ["css", "stylesheet", "scss", "sass", "less"],
+
+  "authors": [
+    {
+      "name": "Jenzri Nizar",
+      "email": "jenzri.nizar.off@gmail.com",
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "leafo/scssphp": "dev-master"
+  }
+}

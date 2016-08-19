@@ -22,3 +22,9 @@ Le module doit être enregistré dans **config/modules.config.php**
     ''Zf3\Scss''
 ),
 ```
+
+##Exemple
+
+```php
+<?= $this->headLink()->prependStylesheet($this->basePath('css/css.scss'));?>
+```

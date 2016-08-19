@@ -15,4 +15,7 @@
     "php": ">=5.4.0",
     "leafo/scssphp": "dev-master"
   }
+  "autoload": {
+    "psr-4": { "Zf3\\Scss\\": "src/" }
+  },
 }

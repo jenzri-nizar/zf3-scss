@@ -41,6 +41,7 @@ class headLink extends \Zend\View\Helper\HeadLink
         if($info['extension']=="scss" && (!file_exists(".".$filename) || (date ("F d Y H:i:s.", filemtime(".".$filename))<date ("F d Y H:i:s.", filemtime(".".$file)))))
         {
             $compiler = new Compiler();
+            $compiler->setImportPaths(dirname($dirroot.$file));
             $string= $compiler->compile(file_get_contents($dirroot.$file));
             file_put_contents($dirroot.$filename,$string);
 
